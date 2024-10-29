@@ -1,31 +1,29 @@
-
-
-/* 
-    Need a link to our github repo!. Need an image tag for that or maybe a button for fork would work nice as well.
-
-*/
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faGithub} from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Navbar = () => {
-
     return (
         <> 
-            <div className="flex justify-between">
-                <div>
-                    <p>Logo</p>
+            <nav className="flex justify-between items-center bg-white p-5">
+                <div className="text-2xl font-bold text-gray-800 font-poppins">
+                    <p>OpenSource</p>
                 </div>
-                <div className="flex">
-                    <a href="#">
+                <div className="flex items-center space-x-7">
+                    <a 
+                        href="#" 
+                        className="border border-gray-200 p-2 w-20 h-10 flex items-center justify-center transition duration-200 hover:border-gray-400 hover:outline hover:outline-2 hover:outline-gray-400"
+                    >
                         <FontAwesomeIcon icon={faGithub} size="2x" />
                     </a>
-                    <button href="#">Submit</button>
-                </div>
-            </div>
-
+                    <button 
+                        className="bg-gray-800 text-white w-20 h-10 rounded flex items-center justify-center transition duration-200 hover:outline hover:outline-2 hover:outline-gray-400"
+                    >
+                        Submit
+                    </button>
+               </div>
+            </nav>
         </>
-    )
-
+    );
 }
 
-export default Navbar
+export default Navbar;
