@@ -4,9 +4,10 @@ import Body from "./components/Body"
 function App() {
   return(
     <>  
-
-      <Navbar/>
-      <Body/>
+      <div>
+        <Navbar/>
+        <Body/>
+      </div>
 
     </>
   )

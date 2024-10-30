@@ -5,8 +5,8 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 const Navbar = () => {
     return (
         <> 
-            <nav className="flex justify-between items-center bg-white p-5">
-                <div className="text-2xl font-bold text-gray-800 font-poppins">
+            <nav className="mx-20 flex h-16 items-center justify-between">
+                <div className="text-2xl font-bold text-gray-800 font-poppins"> {/* Add right margin here */}
                     <p>OpenSource</p>
                 </div>
                 <div className="flex items-center space-x-7">
@@ -21,7 +21,7 @@ const Navbar = () => {
                     >
                         Submit
                     </button>
-               </div>
+                </div>
             </nav>
         </>
     );

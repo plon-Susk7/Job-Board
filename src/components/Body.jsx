@@ -14,7 +14,7 @@ const Body = () => {
     console.log(cards);
 
     return (
-        <div>
+        <div className="flex m-5 gap-4 flex-wrap">
             {cards}
         </div>
     );
