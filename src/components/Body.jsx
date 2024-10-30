@@ -14,7 +14,7 @@ const Body = () => {
     console.log(cards);
 
     return (
-        <div className="flex m-5 gap-4 flex-wrap">
+        <div className="flex flex-wrap justify-center gap-5">
             {cards}
         </div>
     );
