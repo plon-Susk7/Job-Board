@@ -1,12 +1,12 @@
 import Navbar from "./components/Navbar"
-import ProjectCard from "./components/ProjectCard"
+import Body from "./components/Body"
 
 function App() {
   return(
     <>  
 
       <Navbar/>
-      <ProjectCard/>
+      <Body/>
 
     </>
   )
