@@ -3,7 +3,7 @@ const ProjectCard = ({name,icon,description}) => {
 
 
     return (
-        <div className='border border-gray-200 rounded-lg shadow flex flex-col p-4 max-w-sm'>
+        <div className='border border-gray-200 rounded-lg shadow flex flex-col p-4 h-full max-w-sm'>
             <div className='flex'>
                 <img src={icon} alt="React Icon" className='w-8 h-8 mr-2' />
             </div>

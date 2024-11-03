@@ -25,6 +25,30 @@ const data = [
         icon : ReactIcon,
         description : "React is an open-source project. It is a frontend library. Learn more to code."
     },
+    {
+        id: 4,
+        name : "GitHub",
+        icon : ReactIcon,
+        description : "React is an open-source project. It is a frontend library. Learn more to code."
+    },
+    {
+        id: 4,
+        name : "GitHub",
+        icon : ReactIcon,
+        description : "React is an open-source project. It is a frontend library. Learn more to code."
+    },
+    {
+        id: 4,
+        name : "GitHub",
+        icon : ReactIcon,
+        description : "React is an open-source project. It is a frontend library. Learn more to code."
+    },
+    {
+        id: 4,
+        name : "GitHub",
+        icon : ReactIcon,
+        description : "React is an open-source project. It is a frontend library. Learn more to code."
+    },
 ]
 
 export default data;
