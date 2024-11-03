@@ -16,11 +16,12 @@ const Navbar = () => {
                     >
                         <FontAwesomeIcon icon={faGithub} size="2x" />
                     </a>
-                    <button 
+                    <a
+                        href="https://github.com/plon-Susk7/Job-Board/issues" target="_blank"
                         className="bg-gray-800 text-white w-20 h-10 rounded flex items-center justify-center transition duration-200 hover:outline hover:outline-2 hover:outline-gray-400"
                     >
                         Submit
-                    </button>
+                    </a>
                 </div>
             </nav>
         </>
