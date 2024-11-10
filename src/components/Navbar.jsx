@@ -11,7 +11,7 @@ const Navbar = () => {
                 </div>
                 <div className="flex items-center space-x-7">
                     <a 
-                        href="#" 
+                        href="https://github.com/plon-Susk7/Job-Board" target="_blank" 
                         className="border border-gray-200 p-2 w-20 h-10 flex items-center justify-center transition duration-200 hover:border-gray-400 hover:outline hover:outline-2 hover:outline-gray-400"
                     >
                         <FontAwesomeIcon icon={faGithub} size="2x" />

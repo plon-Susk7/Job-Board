@@ -1,7 +1,35 @@
 import ProjectCard from "./ProjectCard";
 import data from "./data";
+import axios from "axios";
+import { useEffect,useState } from "react";
+
+
+
+const GetRepo = async () => {
+    try {
+        const response = await axios.get('https://api.github.com/repos/dubinc/oss-gallery');
+        return response.data; // returns the data object
+    } catch (error) {
+        console.error("Error fetching repo data:", error);
+        return null;
+    }
+};
+  
 
 const Body = () => {
+
+    const [repoData,setRepoData] = useState(null);
+
+    useEffect(()=>{
+        const fetchData = async () => {
+            const data = await GetRepo();
+            console.log(data)
+            setRepoData(data)
+        }
+
+        fetchData();
+    },[])
+
     const cards = data.map((element) => (
         <ProjectCard 
             key={element.id}
