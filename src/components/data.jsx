@@ -3,51 +3,39 @@ import ReactIcon from '../assets/react.svg'
 const data = [
     {
         id : 1,
-        name : "GitHub",
-        icon : ReactIcon,
-        description : "React is an open-source project. It is a frontend library. Learn more to code."
+        url : 'https://api.github.com/repos/dubinc/oss-gallery'
     },
     {
-        id:2,
-        name : "GitHub",
-        icon : ReactIcon,
-        description : "React is an open-source project. It is a frontend library. Learn more to code."
+        id : 1,
+        url : 'https://api.github.com/repos/dubinc/oss-gallery'
     },
     {
-        id : 3,
-        name : "GitHub",
-        icon : ReactIcon,
-        description : "React is an open-source project. It is a frontend library. Learn more to code."
+        id : 1,
+        url : 'https://api.github.com/repos/dubinc/oss-gallery'
     },
     {
-        id: 4,
-        name : "GitHub",
-        icon : ReactIcon,
-        description : "React is an open-source project. It is a frontend library. Learn more to code."
+        id : 1,
+        url : 'https://api.github.com/repos/dubinc/oss-gallery'
     },
     {
-        id: 4,
-        name : "GitHub",
-        icon : ReactIcon,
-        description : "React is an open-source project. It is a frontend library. Learn more to code."
+        id : 1,
+        url : 'https://api.github.com/repos/dubinc/oss-gallery'
     },
     {
-        id: 4,
-        name : "GitHub",
-        icon : ReactIcon,
-        description : "React is an open-source project. It is a frontend library. Learn more to code."
+        id : 1,
+        url : 'https://api.github.com/repos/dubinc/oss-gallery'
     },
     {
-        id: 4,
-        name : "GitHub",
-        icon : ReactIcon,
-        description : "React is an open-source project. It is a frontend library. Learn more to code."
+        id : 1,
+        url : 'https://api.github.com/repos/dubinc/oss-gallery'
     },
     {
-        id: 4,
-        name : "GitHub",
-        icon : ReactIcon,
-        description : "React is an open-source project. It is a frontend library. Learn more to code."
+        id : 1,
+        url : 'https://api.github.com/repos/dubinc/oss-gallery'
+    },
+    {
+        id : 1,
+        url : 'https://api.github.com/repos/dubinc/oss-gallery'
     },
 ]
 
