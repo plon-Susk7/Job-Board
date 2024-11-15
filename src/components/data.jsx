@@ -1,41 +1,31 @@
-import ReactIcon from '../assets/react.svg'
 
 const data = [
     {
-        id : 1,
         url : 'https://api.github.com/repos/dubinc/oss-gallery'
     },
     {
-        id : 1,
-        url : 'https://api.github.com/repos/dubinc/oss-gallery'
+        url : 'https://api.github.com/repos/freeCodeCamp/freeCodeCamp'
     },
     {
-        id : 1,
-        url : 'https://api.github.com/repos/dubinc/oss-gallery'
+        url : 'https://api.github.com/repos/facebook/react'
     },
     {
-        id : 1,
-        url : 'https://api.github.com/repos/dubinc/oss-gallery'
+        url : 'https://api.github.com/repos/vuejs/core'
     },
     {
-        id : 1,
-        url : 'https://api.github.com/repos/dubinc/oss-gallery'
+        url : 'https://api.github.com/repos/golang/go'
     },
     {
-        id : 1,
-        url : 'https://api.github.com/repos/dubinc/oss-gallery'
+        url : 'https://api.github.com/repos/nodejs/node'
     },
     {
-        id : 1,
-        url : 'https://api.github.com/repos/dubinc/oss-gallery'
+        url : 'https://api.github.com/repos/rust-lang/rust'
     },
     {
-        id : 1,
-        url : 'https://api.github.com/repos/dubinc/oss-gallery'
+        url : 'https://api.github.com/repos/neovim/neovim'
     },
     {
-        id : 1,
-        url : 'https://api.github.com/repos/dubinc/oss-gallery'
+        url : 'https://api.github.com/repos/bitcoin/bitcoin'
     },
 ]
 

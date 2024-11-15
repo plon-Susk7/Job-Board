@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import ProjectCard from './ProjectCard';
 import data from './data';
+import { Octokit } from '@octokit/rest';
+
+const octokit = new Octokit({ 
+  auth: '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',
+});
 
 
 const Body = () => {
@@ -11,10 +16,12 @@ const Body = () => {
         try {
             const response = await fetch(element.url);
             const repoData = await response.json();
+            console.log(repoData);
             return {
                 name: repoData.name,
                 description: repoData.description,
                 url: repoData.html_url,
+                stars : repoData.stargazers_count,
                 logo: repoData.organization?.avatar_url || ""
             };
         } catch (error) {
