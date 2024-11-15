@@ -1,0 +1,9 @@
+https://api.github.com/repos/dubinc/oss-gallery
+https://api.github.com/repos/freeCodeCamp/freeCodeCamp
+https://api.github.com/repos/facebook/react
+https://api.github.com/repos/vuejs/core
+https://api.github.com/repos/golang/go
+https://api.github.com/repos/nodejs/node
+https://api.github.com/repos/rust-lang/rust
+https://api.github.com/repos/neovim/neovim
+https://api.github.com/repos/bitcoin/bitcoin
