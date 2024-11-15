@@ -1,12 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ProjectCard from './ProjectCard';
 import data from './data';
-import { Octokit } from '@octokit/rest';
-
-const octokit = new Octokit({ 
-  auth: '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',
-});
-
 
 const Body = () => {
     const [repoData, setRepoData] = useState([]); // Initialize with an empty array
