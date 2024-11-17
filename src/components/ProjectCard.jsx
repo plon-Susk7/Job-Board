@@ -6,9 +6,9 @@ const ProjectCard = ({prompt}) => {
             <div className='overflow-hidden border border-gray-200 rounded-lg shadow flex flex-col p-4 h-48 max-w-sm'>
                 <div className='flex justify-between'>
                     <img src={prompt.logo} alt="React Icon" className='w-8 h-8 mr-2' />
-                    <div className='flex border border-gray-200 rounded-lg'>
-                        <Star size={16} strokeWidth={1}/>
-                        <span>{prompt.stars}</span>
+                    <div className='flex items-center justify-center border border-gray-200 rounded-lg p-1'>
+                        <Star size={16} strokeWidth={1} />
+                        <p className='text-sm ml-1'>{prompt.stars}</p>
                     </div>
                 </div>
                 <div>

@@ -31,7 +31,7 @@ const fetchAndSaveData = async () => {
 
     const fileContent = `// Auto-generated file\nconst Data =  ${JSON.stringify(filterData, null, 4)};\nexport default Data;`;
 
-    fs.writeFileSync('src/components/data.jsx', fileContent);
+    fs.writeFileSync('/home/priyash7/Desktop/Job-Board/src/components/data.jsx', fileContent);
     console.log('Data fetched and saved successfully');
 }
 
