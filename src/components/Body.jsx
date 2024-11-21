@@ -1,3 +1,4 @@
+import Footer from './Footer';
 import ProjectCard from './ProjectCard';
 import Data from './data';
 import { useState } from 'react';
@@ -41,6 +42,8 @@ const Body = () => {
                     )}
                 </div>
             </div>
+
+            <Footer/>
         </>
     );
 };

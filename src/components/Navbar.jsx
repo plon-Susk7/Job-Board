@@ -7,7 +7,7 @@ const Navbar = () => {
         <> 
             <nav className="flex h-16 items-center justify-between sticky w-full top-0 z-30 backdrop-blur-md shadow-md">
                 <div className="ml-20 text-2xl font-bold text-gray-800 font-poppins"> {/* Add right margin here */}
-                    <p>OpenSource</p>
+                    <p>JobBoard</p>
                 </div>
                 <div className="flex items-center space-x-7 mr-20">
                     <a 
