@@ -24,9 +24,6 @@ npm start
 ```
 This will start the application. You can access it the link in the console.
 
-***
-Feel free to raise an issue if you encounter any problems or have questions about the setup process!
-
 ## Updating the Data
 
 The `data.jsx` file contains all the information and data about the repositories. To update it, follow the steps below:
@@ -53,3 +50,7 @@ Inorder to update the data.jsx file simply run the following command
 node index.js
 ```
 This will parse the `repos.yaml` file, retrieve the information for each repository, and update the `data.jsx` file with the latest data.
+
+***
+Feel free to raise an issue if you encounter any problems or have questions about the setup process!
+
