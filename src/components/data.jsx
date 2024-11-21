@@ -1,149 +1,76 @@
 // Auto-generated file
 const Data =  [
     {
-        "name": "oss-gallery",
-        "description": "A crowdsourced list of the best open-source projects on the internet. Built with the Dub TypeScript SDK.",
-        "url": "https://github.com/dubinc/oss-gallery",
-        "stars": 1107,
-        "logo": "https://avatars.githubusercontent.com/u/153106492?v=4",
+        "name": "kubeflow",
+        "description": "Machine Learning Toolkit for Kubernetes",
+        "url": "https://github.com/kubeflow/kubeflow",
+        "stars": 14401,
+        "logo": "https://avatars.githubusercontent.com/u/33164907?v=4",
         "type": "GSOC"
     },
     {
-        "name": "freeCodeCamp",
-        "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.",
-        "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-        "stars": 405496,
-        "logo": "https://avatars.githubusercontent.com/u/9892522?v=4",
+        "name": "keploy",
+        "description": "Unit and Integration Test generation for Developers. Generate tests and stubs for your application that actually work!",
+        "url": "https://github.com/keploy/keploy",
+        "stars": 5120,
+        "logo": "https://avatars.githubusercontent.com/u/92252339?v=4",
         "type": "GSOC"
     },
     {
-        "name": "react",
-        "description": "The library for web and native user interfaces.",
-        "url": "https://github.com/facebook/react",
-        "stars": 229267,
-        "logo": "https://avatars.githubusercontent.com/u/69631?v=4",
-        "type": "YC"
-    },
-    {
-        "name": "core",
-        "description": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
-        "url": "https://github.com/vuejs/core",
-        "stars": 47669,
-        "logo": "https://avatars.githubusercontent.com/u/6128107?v=4",
-        "type": "YC"
-    },
-    {
-        "name": "go",
-        "description": "The Go programming language",
-        "url": "https://github.com/golang/go",
-        "stars": 124069,
-        "logo": "https://avatars.githubusercontent.com/u/4314092?v=4",
-        "type": "YC"
-    },
-    {
-        "name": "node",
-        "description": "Node.js JavaScript runtime ✨🐢🚀✨",
-        "url": "https://github.com/nodejs/node",
-        "stars": 107790,
-        "logo": "https://avatars.githubusercontent.com/u/9950313?v=4",
-        "type": "YC"
-    },
-    {
-        "name": "rust",
-        "description": "Empowering everyone to build reliable and efficient software.",
-        "url": "https://github.com/rust-lang/rust",
-        "stars": 98561,
-        "logo": "https://avatars.githubusercontent.com/u/5430905?v=4",
+        "name": "electron",
+        "description": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+        "url": "https://github.com/electron/electron",
+        "stars": 114474,
+        "logo": "https://avatars.githubusercontent.com/u/13409222?v=4",
         "type": "GSOC"
     },
     {
-        "name": "neovim",
-        "description": "Vim-fork focused on extensibility and usability",
-        "url": "https://github.com/neovim/neovim",
-        "stars": 83310,
-        "logo": "https://avatars.githubusercontent.com/u/6471485?v=4",
-        "type": "YC"
-    },
-    {
-        "name": "bitcoin",
-        "description": "Bitcoin Core integration/staging tree",
-        "url": "https://github.com/bitcoin/bitcoin",
-        "stars": 79522,
-        "logo": "https://avatars.githubusercontent.com/u/528860?v=4",
+        "name": "FFmpeg",
+        "description": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
+        "url": "https://github.com/FFmpeg/FFmpeg",
+        "stars": 46146,
+        "logo": "https://avatars.githubusercontent.com/u/729418?v=4",
         "type": "GSOC"
     },
     {
-        "name": "oss-gallery",
-        "description": "A crowdsourced list of the best open-source projects on the internet. Built with the Dub TypeScript SDK.",
-        "url": "https://github.com/dubinc/oss-gallery",
-        "stars": 1107,
-        "logo": "https://avatars.githubusercontent.com/u/153106492?v=4",
+        "name": "angular",
+        "description": "Deliver web apps with confidence 🚀",
+        "url": "https://github.com/angular/angular",
+        "stars": 96287,
+        "logo": "https://avatars.githubusercontent.com/u/139426?v=4",
         "type": "GSOC"
     },
     {
-        "name": "freeCodeCamp",
-        "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.",
-        "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-        "stars": 405496,
-        "logo": "https://avatars.githubusercontent.com/u/9892522?v=4",
-        "type": "GSOC"
-    },
-    {
-        "name": "react",
-        "description": "The library for web and native user interfaces.",
-        "url": "https://github.com/facebook/react",
-        "stars": 229267,
-        "logo": "https://avatars.githubusercontent.com/u/69631?v=4",
+        "name": "danswer",
+        "description": "Gen-AI Chat for Teams - Think ChatGPT if it had access to your team's unique knowledge.",
+        "url": "https://github.com/danswer-ai/danswer",
+        "stars": 10688,
+        "logo": "https://avatars.githubusercontent.com/u/131946000?v=4",
         "type": "YC"
     },
     {
-        "name": "core",
-        "description": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
-        "url": "https://github.com/vuejs/core",
-        "stars": 47669,
-        "logo": "https://avatars.githubusercontent.com/u/6128107?v=4",
+        "name": "stripe-python",
+        "description": "Python library for the Stripe API.    ",
+        "url": "https://github.com/stripe/stripe-python",
+        "stars": 1691,
+        "logo": "https://avatars.githubusercontent.com/u/856813?v=4",
         "type": "YC"
     },
     {
-        "name": "go",
-        "description": "The Go programming language",
-        "url": "https://github.com/golang/go",
-        "stars": 124069,
-        "logo": "https://avatars.githubusercontent.com/u/4314092?v=4",
+        "name": "unsloth",
+        "description": "Finetune Llama 3.2, Mistral, Phi, Qwen 2.5 & Gemma LLMs 2-5x faster with 80% less memory",
+        "url": "https://github.com/unslothai/unsloth",
+        "stars": 18338,
+        "logo": "https://avatars.githubusercontent.com/u/150920049?v=4",
         "type": "YC"
     },
     {
-        "name": "node",
-        "description": "Node.js JavaScript runtime ✨🐢🚀✨",
-        "url": "https://github.com/nodejs/node",
-        "stars": 107790,
-        "logo": "https://avatars.githubusercontent.com/u/9950313?v=4",
+        "name": "srcbook",
+        "description": "TypeScript-centric app development platform",
+        "url": "https://github.com/srcbookdev/srcbook",
+        "stars": 2564,
+        "logo": "https://avatars.githubusercontent.com/u/171983774?v=4",
         "type": "YC"
-    },
-    {
-        "name": "rust",
-        "description": "Empowering everyone to build reliable and efficient software.",
-        "url": "https://github.com/rust-lang/rust",
-        "stars": 98561,
-        "logo": "https://avatars.githubusercontent.com/u/5430905?v=4",
-        "type": "GSOC"
-    },
-    {
-        "name": "neovim",
-        "description": "Vim-fork focused on extensibility and usability",
-        "url": "https://github.com/neovim/neovim",
-        "stars": 83310,
-        "logo": "https://avatars.githubusercontent.com/u/6471485?v=4",
-        "type": "YC"
-    },
-    {
-        "name": "bitcoin",
-        "description": "Bitcoin Core integration/staging tree",
-        "url": "https://github.com/bitcoin/bitcoin",
-        "stars": 79522,
-        "logo": "https://avatars.githubusercontent.com/u/528860?v=4",
-        "type": "GSOC"
-    },
+    }
 ];
-
 export default Data;

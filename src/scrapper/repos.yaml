@@ -1,0 +1,16 @@
+groups:
+  - type: GSOC
+    repos:
+      - https://api.github.com/repos/kubeflow/kubeflow
+      - https://api.github.com/repos/kubeflow/postgres/postgres
+      - https://api.github.com/repos/keploy/keploy
+      - https://api.github.com/repos/electron/electron
+      - https://api.github.com/repos/FFmpeg/FFmpeg
+      - https://api.github.com/repos/angular/angular
+  - type: YC
+    repos:
+      - https://api.github.com/repos/danswer-ai/danswer
+      - https://api.github.com/repos/stripe/stripe-python
+      - https://api.github.com/repos/unslothai/unsloth
+      - https://api.github.com/repos/srcbookdev/srcbook
+      
