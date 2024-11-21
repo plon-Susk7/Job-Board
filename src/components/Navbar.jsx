@@ -1,12 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-
+import logo from '../assets/logo.svg';
 
 const Navbar = () => {
     return (
         <> 
             <nav className="flex h-16 items-center justify-between sticky w-full top-0 z-30 backdrop-blur-md shadow-md">
-                <div className="ml-20 text-2xl font-bold text-gray-800 font-poppins"> {/* Add right margin here */}
+                <div className="ml-20 text-2xl font-bold text-gray-800 font-poppins flex items-center"> {/* Add right margin here */}
+                    <img src={logo} alt="Logo" className="logo" />
                     <p>JobBoard</p>
                 </div>
                 <div className="flex items-center space-x-7 mr-20">
