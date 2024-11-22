@@ -17,10 +17,19 @@ groups:
       - https://api.github.com/repos/elastic/elasticsearch
       - https://api.github.com/repos/matrix-org/synapse
       - https://api.github.com/repositories/28521896
- 
   - type: YC
     repos:
       - https://api.github.com/repos/danswer-ai/danswer
       - https://api.github.com/repos/stripe/stripe-python
       - https://api.github.com/repos/unslothai/unsloth
       - https://api.github.com/repos/srcbookdev/srcbook
+      - https://api.github.com/repos/supabase/supabase
+      - https://api.github.com/repos/FortAwesome/Font-Awesome
+      - https://api.github.com/repos/mattermost/mattermost-server
+      - https://api.github.com/repos/influxdata/influxdb
+      - https://api.github.com/repos/gitlabhq/gitlabhq
+      - https://api.github.com/repos/PostHog/posthog
+      - https://api.github.com/repos/chatwoot/chatwoot
+      - https://api.github.com/repos/apollographql/apollo-client
+      - https://api.github.com/repos/airbytehq/airbyte
+      - https://api.github.com/repos/questdb/questdb
