@@ -25,11 +25,16 @@ groups:
       - https://api.github.com/repos/srcbookdev/srcbook
       - https://api.github.com/repos/supabase/supabase
       - https://api.github.com/repos/FortAwesome/Font-Awesome
-      - https://api.github.com/repos/mattermost/mattermost-server
+      - https://api.github.com/repos/reworkd/AgentGPT
+      - https://api.github.com/repos/mattermost/mattermost
       - https://api.github.com/repos/influxdata/influxdb
-      - https://api.github.com/repos/gitlabhq/gitlabhq
-      - https://api.github.com/repos/PostHog/posthog
-      - https://api.github.com/repos/chatwoot/chatwoot
-      - https://api.github.com/repos/apollographql/apollo-client
-      - https://api.github.com/repos/airbytehq/airbyte
-      - https://api.github.com/repos/questdb/questdb
+      - https://api.github.com/repos/algolia/algoliasearch-client-javascript
+      - https://api.github.com/repos/segmentio/analytics.js
+      - https://api.github.com/repos/zapier/zapier-platform
+      - https://api.github.com/repos/docker/docker-ce
+      - https://api.github.com/repos/getsentry/sentry
+      - https://api.github.com/repos/trello/trello
+      - https://api.github.com/repos/heroku/heroku
+      - https://api.github.com/repos/twitchtv/twitch
+      - https://api.github.com/repos/reddit/reddit
+      - https://api.github.com/repos/stripe/stripe-go
