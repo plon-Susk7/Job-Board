@@ -17,7 +17,6 @@ groups:
       - https://api.github.com/repos/elastic/elasticsearch
       - https://api.github.com/repos/matrix-org/synapse
       - https://api.github.com/repositories/28521896
- 
   - type: YC
     repos:
       - https://api.github.com/repos/danswer-ai/danswer
@@ -29,3 +28,13 @@ groups:
       - https://api.github.com/repos/reworkd/AgentGPT
       - https://api.github.com/repos/mattermost/mattermost
       - https://api.github.com/repos/influxdata/influxdb
+      - https://api.github.com/repos/algolia/algoliasearch-client-javascript
+      - https://api.github.com/repos/segmentio/analytics.js
+      - https://api.github.com/repos/zapier/zapier-platform
+      - https://api.github.com/repos/docker/docker-ce
+      - https://api.github.com/repos/getsentry/sentry
+      - https://api.github.com/repos/trello/trello
+      - https://api.github.com/repos/heroku/heroku
+      - https://api.github.com/repos/twitchtv/twitch
+      - https://api.github.com/repos/reddit/reddit
+      - https://api.github.com/repos/stripe/stripe-go
