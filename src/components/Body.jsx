@@ -2,9 +2,14 @@ import Footer from './Footer';
 import ProjectCard from './ProjectCard';
 import Data from './data';
 import { useState } from 'react';
+import { useRecoilValue } from 'recoil';
+import { submissionState } from '../atoms/submission';
+import Submission from './Submission';
 
 const Body = () => {
     const [data, setData] = useState(Data);
+
+    const subState = useRecoilValue(submissionState);
 
     const filterAll = () => {
         setData(Data);
@@ -42,6 +47,8 @@ const Body = () => {
                     )}
                 </div>
             </div>
+
+            {subState && <Submission />}
 
             <Footer />
         </>

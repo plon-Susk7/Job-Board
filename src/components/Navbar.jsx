@@ -1,11 +1,20 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGithub} from "@fortawesome/free-brands-svg-icons";
 import { faPaperPlane, faMoon, faSun } from "@fortawesome/free-regular-svg-icons";
 import { useContext } from "react";
 import { DarkModeContext } from "../context/DarkModeContext";
+import { useSetRecoilState } from "recoil";
+import { submissionState } from "../atoms/submission";
+
 
 const Navbar = () => {
 	const { isDarkMode, toggleDarkMode } = useContext(DarkModeContext);
+	const setShowSubmission = useSetRecoilState(submissionState);
+
+	const handleSubmission = () => {
+		setShowSubmission((prev)=>!prev);
+	}
+
 	return (
 		<>
 			<nav className="flex h-16 items-center justify-between sticky w-full top-0 z-30 backdrop-blur-md shadow-md dark:text-white">
@@ -26,13 +35,12 @@ const Navbar = () => {
 						<FontAwesomeIcon icon={faGithub} size="1x" />
 						Github
 					</a>
-					<a
-						href="https://github.com/plon-Susk7/Job-Board/issues"
-						target="_blank"
+					<button
+						onClick={() => handleSubmission()}
 						className="bg-gray-800 dark:bg-gray-200 text-white dark:text-black p-2 px-4 rounded-lg flex items-center justify-center gap-2 transition duration-200 hover:outline hover:outline-2 hover:outline-gray-400">
-						<FontAwesomeIcon icon={faPaperPlane} size="1x" />
+						<FontAwesomeIcon  icon={faPaperPlane} size="1x" />
 						Submit
-					</a>
+					</button>
 				</div>
 			</nav>
 		</>
