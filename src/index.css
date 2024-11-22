@@ -1,11 +1,4 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.logo {
-    width: 128px;
-    height: 128px;
-    object-fit: contain;
-    margin-top: 75px; /* Adjust margin-top as needed */
-  }
   

@@ -24,3 +24,8 @@ groups:
       - https://api.github.com/repos/stripe/stripe-python
       - https://api.github.com/repos/unslothai/unsloth
       - https://api.github.com/repos/srcbookdev/srcbook
+      - https://api.github.com/repos/supabase/supabase
+      - https://api.github.com/repos/FortAwesome/Font-Awesome
+      - https://api.github.com/repos/reworkd/AgentGPT
+      - https://api.github.com/repos/mattermost/mattermost
+      - https://api.github.com/repos/influxdata/influxdb
