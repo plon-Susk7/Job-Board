@@ -8,15 +8,16 @@ groups:
       - https://api.github.com/repos/FFmpeg/FFmpeg
       - https://api.github.com/repos/angular/angular
       - https://api.github.com/repos/processing/processing
-      - https://api.github.com/repos/apache
-      - https://api.github.com/repos/wikimedia
-      - https://api.github.com/repos/RocketChat
-      - https://api.github.com/repos/scorelab
-      - https://api.github.com/repos/JdeRobot
-      - https://api.github.com/repos/anitab-org
-      - https://api.github.com/repos/elastic
-      - https://api.github.com/repos/matrix-org
-      - https://api.github.com/repos/bookbrainz
+      - https://api.github.com/repos/apache/incubator
+      - https://api.github.com/repos/wikimedia/mediawiki
+      - https://api.github.com/repos/RocketChat/Rocket.Chat
+      - https://api.github.com/repos/scorelab/Bassa
+      - https://api.github.com/repos/JdeRobot/RoboticsAcademy
+      - https://api.github.com/repos/anitab-org/mentorship-backend
+      - https://api.github.com/repos/elastic/elasticsearch
+      - https://api.github.com/repos/matrix-org/synapse
+      - https://api.github.com/repositories/28521896
+ 
   - type: YC
     repos:
       - https://api.github.com/repos/danswer-ai/danswer
