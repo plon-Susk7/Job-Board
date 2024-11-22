@@ -1,8 +1,16 @@
 import { Star } from 'lucide-react';
 
 const ProjectCard = ({prompt}) => {
+
+    const truncateText = (text, maxLength) => {
+        if (text.length <= maxLength) {
+            return text;
+        }
+        return text.substr(0, maxLength) + '...';
+    }
+
     return (
-        < a href={prompt.url} target="_blank" rel="noreferrer noopener" >
+        <a href={prompt.url} target="_blank" rel="noreferrer noopener">
             <div className='overflow-hidden border border-gray-200 rounded-lg shadow flex flex-col p-4 h-48 max-w-sm'>
                 <div className='flex justify-between'>
                     <img src={prompt.logo} alt="React Icon" className='w-8 h-8 mr-2' />
@@ -13,8 +21,7 @@ const ProjectCard = ({prompt}) => {
                 </div>
                 <div>
                     <p className='text-lg font-bold'>{prompt.name}</p>
-                    <p className='text-gray-400 text-sm '>{prompt.description}</p>
-                    <p>{prompt.language}</p>
+                    <p className='text-gray-400 text-sm break-words'>{truncateText(prompt.description,100)}</p>
                 </div>
             </div>
         </a>
