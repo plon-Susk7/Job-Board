@@ -4,11 +4,11 @@ import Body from "./components/Body"
 
 function App() {
 
-  return(
-    <>  
-      <div>
-        <Navbar/>
-        <Body/>
+  return (
+    <>
+      <div className="dark:bg-black dark:text-white">
+        <Navbar />
+        <Body />
       </div>
     </>
   )
