@@ -31,12 +31,15 @@ const Submission = () => {
                     </div>
                     <div>
                         <h1 className="text-md font-bold text-gray-800 dark:text-white">Category</h1>
-                        <input
+                        <select
                             className="w-full mt-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-300 dark:focus:ring-gray-600"
-                            placeholder="Enter category"
-                        />
+                        >
+                            <option value="GSOC">GSOC</option>
+                            <option value="YC">YC</option>
+                            <option value="OTHER">Other</option>
+                        </select>
                     </div>
-                    <button className="w-full bg-gray-800 dark:bg-gray-200 text-white dark:text-black p-2 rounded-lg transition duration-200 hover:outline hover:outline-2 hover:outline-gray-400">
+                    <button className="mt-2 w-full bg-gray-800 dark:bg-gray-200 text-white dark:text-black p-2 rounded-lg transition duration-200 hover:outline hover:outline-2 hover:outline-gray-400">
                         Submit
                     </button>
                 </div>
