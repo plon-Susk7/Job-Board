@@ -7,10 +7,19 @@ groups:
       - https://api.github.com/repos/electron/electron
       - https://api.github.com/repos/FFmpeg/FFmpeg
       - https://api.github.com/repos/angular/angular
+      - https://api.github.com/repos/processing/processing
+      - https://api.github.com/repos/apache
+      - https://api.github.com/repos/wikimedia
+      - https://api.github.com/repos/RocketChat
+      - https://api.github.com/repos/scorelab
+      - https://api.github.com/repos/JdeRobot
+      - https://api.github.com/repos/anitab-org
+      - https://api.github.com/repos/elastic
+      - https://api.github.com/repos/matrix-org
+      - https://api.github.com/repos/bookbrainz
   - type: YC
     repos:
       - https://api.github.com/repos/danswer-ai/danswer
       - https://api.github.com/repos/stripe/stripe-python
       - https://api.github.com/repos/unslothai/unsloth
       - https://api.github.com/repos/srcbookdev/srcbook
-      
