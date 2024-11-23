@@ -18,8 +18,9 @@ By contributing and updating the repository list, you're helping grow the open-s
 To submit new repositories or make any updates, follow these steps:
 
 1. Fork the repository and clone it to your local machine.
-2. Update the `repos.yaml` file located in `src/scraper` with the details of the repository you wish to add.
-3. Submit a pull request with your changes.
+2. Create a new file called `.env` and copy contents from `.env.example` to it. You can get your token from https://github.com/settings/tokens 
+3. Update the `repos.yaml` file located in `src/scraper` with the details of the repository you wish to add.
+4. Submit a pull request with your changes.
 
 Your contributions help make this platform a valuable resource for open-source enthusiasts and developers!
 
