@@ -10,6 +10,8 @@ const Submission = () => {
 
     const setShowSubmission = useSetRecoilState(submissionState);
 
+    console.log(import.meta.env.VITE_GITHUB_API_KEY);
+
     const handleClickOutside = (e) => {
         if (e.target.id === 'submission-overlay') {
             setShowSubmission(false);
