@@ -36,9 +36,14 @@ const Submission = () => {
 			if (data.status === 201) {
 				toast.success("Issue created successfully");
 				setShowSubmission(false);
+			} else {
+				toast.error(data.message || "Failed to create the issue.");
 			}
 		} catch (e) {
-			console.log(e);
+			const errorMessage =
+				e.response?.data?.message ||
+				"An error occurred while creating the issue.";
+			toast.error(errorMessage);
 		}
 	};
 
