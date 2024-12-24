@@ -61,7 +61,6 @@ const Body = () => {
                     />
                 </div>
 
-                {/* Filter Buttons */}
                 <div className="flex gap-5 mb-4">
                     <button
                         onClick={filterAll}
